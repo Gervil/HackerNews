@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		97E30F8128469A760084B3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F8028469A760084B3E6 /* AppDelegate.swift */; };
 		97E30F8328469A760084B3E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F8228469A760084B3E6 /* SceneDelegate.swift */; };
-		97E30F8528469A760084B3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F8428469A760084B3E6 /* ViewController.swift */; };
 		97E30F8828469A760084B3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E30F8628469A760084B3E6 /* Main.storyboard */; };
-		97E30F8B28469A760084B3E6 /* reign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F8928469A760084B3E6 /* reign.xcdatamodeld */; };
+		97E30F8B28469A760084B3E6 /* HackerNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F8928469A760084B3E6 /* HackerNews.xcdatamodeld */; };
 		97E30F8D28469A790084B3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E30F8C28469A790084B3E6 /* Assets.xcassets */; };
 		97E30F9028469A790084B3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E30F8E28469A790084B3E6 /* LaunchScreen.storyboard */; };
+		97E30F9928469C100084B3E6 /* ApiConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F9828469C100084B3E6 /* ApiConnection.swift */; };
+		97E30F9C28469DC90084B3E6 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F9B28469DC90084B3E6 /* Util.swift */; };
+		97E30F9E28469E530084B3E6 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30F9D28469E530084B3E6 /* Messages.swift */; };
+		97E30FA12846A4950084B3E6 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30FA02846A4950084B3E6 /* NewsData.swift */; };
+		97E30FA52846AC9A0084B3E6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30FA42846AC9A0084B3E6 /* MainTableViewCell.swift */; };
+		97E30FA82846BD130084B3E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30FA72846BD130084B3E6 /* DetailViewController.swift */; };
+		97E30FAD284709820084B3E6 /* NewsQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30FAC284709820084B3E6 /* NewsQueries.swift */; };
+		97E30FAF28479A010084B3E6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E30FAE28479A010084B3E6 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97E30F7D28469A760084B3E6 /* reign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E30F8028469A760084B3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97E30F8228469A760084B3E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97E30F8428469A760084B3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97E30F8728469A760084B3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97E30F8A28469A760084B3E6 /* reign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = reign.xcdatamodel; sourceTree = "<group>"; };
 		97E30F8C28469A790084B3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E30F8F28469A790084B3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97E30F9128469A790084B3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E30F9828469C100084B3E6 /* ApiConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnection.swift; sourceTree = "<group>"; };
+		97E30F9B28469DC90084B3E6 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		97E30F9D28469E530084B3E6 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		97E30FA02846A4950084B3E6 /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		97E30FA42846AC9A0084B3E6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		97E30FA72846BD130084B3E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		97E30FAC284709820084B3E6 /* NewsQueries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsQueries.swift; sourceTree = "<group>"; };
+		97E30FAE28479A010084B3E6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,63 @@
 		97E30F7F28469A760084B3E6 /* reign */ = {
 			isa = PBXGroup;
 			children = (
-				97E30F8028469A760084B3E6 /* AppDelegate.swift */,
-				97E30F8228469A760084B3E6 /* SceneDelegate.swift */,
-				97E30F8428469A760084B3E6 /* ViewController.swift */,
+				97E30F9F2846A4730084B3E6 /* NewsMain */,
+				97E30FA62846BCE70084B3E6 /* NewsDetail */,
+				97E30FAB284709050084B3E6 /* DataBase */,
+				97E30F9A28469CD10084B3E6 /* Config */,
+				97E30F9728469BF20084B3E6 /* Utilities */,
 				97E30F8628469A760084B3E6 /* Main.storyboard */,
 				97E30F8C28469A790084B3E6 /* Assets.xcassets */,
 				97E30F8E28469A790084B3E6 /* LaunchScreen.storyboard */,
 				97E30F9128469A790084B3E6 /* Info.plist */,
-				97E30F8928469A760084B3E6 /* reign.xcdatamodeld */,
 			);
 			path = reign;
+			sourceTree = "<group>";
+		};
+		97E30F9728469BF20084B3E6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				97E30F9828469C100084B3E6 /* ApiConnection.swift */,
+				97E30F9D28469E530084B3E6 /* Messages.swift */,
+				97E30F9B28469DC90084B3E6 /* Util.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		97E30F9A28469CD10084B3E6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				97E30F8028469A760084B3E6 /* AppDelegate.swift */,
+				97E30F8228469A760084B3E6 /* SceneDelegate.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		97E30F9F2846A4730084B3E6 /* NewsMain */ = {
+			isa = PBXGroup;
+			children = (
+				97E30FAE28479A010084B3E6 /* MainViewController.swift */,
+				97E30FA42846AC9A0084B3E6 /* MainTableViewCell.swift */,
+				97E30FA02846A4950084B3E6 /* NewsData.swift */,
+			);
+			path = NewsMain;
+			sourceTree = "<group>";
+		};
+		97E30FA62846BCE70084B3E6 /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				97E30FA72846BD130084B3E6 /* DetailViewController.swift */,
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		97E30FAB284709050084B3E6 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				97E30FAC284709820084B3E6 /* NewsQueries.swift */,
+				97E30F8928469A760084B3E6 /* HackerNews.xcdatamodeld */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97E30F8528469A760084B3E6 /* ViewController.swift in Sources */,
+				97E30FA12846A4950084B3E6 /* NewsData.swift in Sources */,
+				97E30F9C28469DC90084B3E6 /* Util.swift in Sources */,
+				97E30FAD284709820084B3E6 /* NewsQueries.swift in Sources */,
+				97E30FAF28479A010084B3E6 /* MainViewController.swift in Sources */,
+				97E30F9928469C100084B3E6 /* ApiConnection.swift in Sources */,
+				97E30FA52846AC9A0084B3E6 /* MainTableViewCell.swift in Sources */,
+				97E30F9E28469E530084B3E6 /* Messages.swift in Sources */,
 				97E30F8128469A760084B3E6 /* AppDelegate.swift in Sources */,
+				97E30FA82846BD130084B3E6 /* DetailViewController.swift in Sources */,
 				97E30F8328469A760084B3E6 /* SceneDelegate.swift in Sources */,
-				97E30F8B28469A760084B3E6 /* reign.xcdatamodeld in Sources */,
+				97E30F8B28469A760084B3E6 /* HackerNews.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +364,7 @@
 				DEVELOPMENT_TEAM = 475939Z3R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = reign/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HackerNews;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,7 +379,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,6 +393,7 @@
 				DEVELOPMENT_TEAM = 475939Z3R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = reign/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HackerNews;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,7 +408,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -366,13 +436,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		97E30F8928469A760084B3E6 /* reign.xcdatamodeld */ = {
+		97E30F8928469A760084B3E6 /* HackerNews.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				97E30F8A28469A760084B3E6 /* reign.xcdatamodel */,
 			);
 			currentVersion = 97E30F8A28469A760084B3E6 /* reign.xcdatamodel */;
-			path = reign.xcdatamodeld;
+			path = HackerNews.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

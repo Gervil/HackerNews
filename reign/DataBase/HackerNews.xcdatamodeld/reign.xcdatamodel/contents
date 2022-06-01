@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G624" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="News" representedClassName="News" syncable="YES" codeGenerationType="class">
+        <attribute name="author" attributeType="String"/>
+        <attribute name="createdAt" attributeType="String"/>
+        <attribute name="storyId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="storyTitle" attributeType="String"/>
+        <attribute name="storyUrl" attributeType="String"/>
+        <attribute name="timeInterval" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="News" positionX="-63" positionY="-18" width="128" height="119"/>
+    </elements>
+</model>
