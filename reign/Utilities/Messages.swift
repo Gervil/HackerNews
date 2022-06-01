@@ -17,7 +17,7 @@ class Messages {
     }
     
     static func errorUrl() -> UIAlertController {
-        return showMessage(title: "Ups", messageText: "This news doesn't have an url link to see more details.")
+        return showMessage(title: "Ups", messageText: "This news doesn't have a link to see more details.")
     }
     
     static func errorConnection() -> UIAlertController {

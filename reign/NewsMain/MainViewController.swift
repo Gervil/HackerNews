@@ -39,6 +39,11 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     @objc func refreshList() {
+        if !Util.checkInternetAccess() {
+            present(Messages.errorConnection(), animated: true, completion: nil)
+            endRefreshing()
+            return
+        }
         mNewsDatas.removeAll()
         mTableView.reloadData()
         mNewsSelected = 0
@@ -199,7 +204,13 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     //----------------------------------------------------------------------------------------------
     //MARK: Offline Data
     func offlineMode() {
-        for item in mDataBaseManager.fetchData() {
+        let data = mDataBaseManager.fetchData()
+        if data.isEmpty {
+            self.present(Messages.errorConnection(), animated: true, completion: nil)
+            self.endRefreshing()
+            return
+        }
+        for item in data {
             let news = NewsData(storyId: item.storyId
                                 , storyTitle: item.storyTitle!
                                 , author: item.author!
