@@ -134,7 +134,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     //MARK: Data extractor
     func getData(_ data: NSArray) {
         mDataBaseManager.deleteData(storyId: 0)
-        var storyIdList: [Int64] = []
         var storyId: Int64
         var title = "", storyTitle = "", author = "", createdAt = "", storyUrl1 = "", storyUrl2 = ""
         
@@ -160,21 +159,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 }
             }
             
-            //Control the list to not show repeated news.
-            var isNewItem = true
-            if storyIdList.isEmpty {
-                storyIdList.append(storyId)
-            } else {
-                for item in storyIdList {
-                    if item == storyId {
-                        isNewItem = false
-                        break
-                    }
-                }
-                storyIdList.append(storyId)
-            }
-            
-            if addItem && isNewItem {
+            if addItem {
                 let titleNews = title.isEmpty ? storyTitle : title
                 if !titleNews.isEmpty && storyId != 0 {
                     //Online News
